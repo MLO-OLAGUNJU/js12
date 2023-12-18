@@ -23,6 +23,6 @@ for (let manny = 0; manny <= 10; manny++) {
 } */
 
 let myName = "Manny";
-for (let i = 0; i <= array.length; i++) {
+for (let i = 0; i <= myName.length; i++) {
   console.log(myName.charAt(i));
 }
