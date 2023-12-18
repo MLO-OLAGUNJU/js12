@@ -22,7 +22,7 @@ for (let manny = 0; manny <= 10; manny++) {
   console.log(manny);
 } */
 
-let myName = "Manny";
-for (let i = 0; i <= myName.length; i++) {
+let myName = "Olagunju";
+for (let i = 0; i < myName.length; i++) {
   console.log(myName.charAt(i));
 }
