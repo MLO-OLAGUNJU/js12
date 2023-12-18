@@ -28,7 +28,7 @@ for (let i = 0; i < myName.length; i++) {
 }
  */
 
-let myname = "Mannymanny";
+let myname = "Olagunju";
 let counter = 0;
 let myLetter;
 while (counter <= 3) {
@@ -38,6 +38,7 @@ while (counter <= 3) {
     counter += 2;
     continue;
   }
-  if (myLetter === "m") break;
+  if (myLetter === "n") break;
   counter++;
 }
+console.log(counter);
