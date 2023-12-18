@@ -1,7 +1,7 @@
 // Loops
 let myNumber = 0;
-while (myNumber < 50) {
+while (myNumber <= 50) {
   console.log(myNumber);
-  // myNumber++;
-  // myNumber += 1;
+  myNumber++;
+  // myNumber += 2;
 }
