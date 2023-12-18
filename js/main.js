@@ -21,8 +21,19 @@ do {
 for (let manny = 0; manny <= 10; manny++) {
   console.log(manny);
 } */
-
+/* 
 let myName = "Olagunju";
 for (let i = 0; i < myName.length; i++) {
   console.log(myName.charAt(i));
+}
+ */
+
+let myname = "Mannymanny";
+let counter = 0;
+let myLetter;
+while (true) {
+  myLetter = myname[counter];
+  console.log(myLetter);
+  if (myLetter === "m") break;
+  counter++;
 }
