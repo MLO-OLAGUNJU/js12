@@ -31,9 +31,13 @@ for (let i = 0; i < myName.length; i++) {
 let myname = "Mannymanny";
 let counter = 0;
 let myLetter;
-while (true) {
+while (counter <= 3) {
   myLetter = myname[counter];
   console.log(myLetter);
+  if (counter === 1) {
+    counter += 2;
+    continue;
+  }
   if (myLetter === "m") break;
   counter++;
 }
